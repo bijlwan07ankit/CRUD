@@ -1,59 +1,39 @@
-*{ box-sizing: border-box;
+*{
+  box-sizing: border-box; 
+  font-family: Montserrat sans-serif 'Times New Roman', Times, serif;
+
 }
 body{
-    margin: 0;
-    padding: 0;
+    padding:0px;
+    margin:0px;
+    background-color:white;
 }
-#container{
-    background:green;
+ #container{
+    width:75%;
     min-height:100vh;
-    display:flex;
-}
-#section{
-    min-height:100%;
-    background: #FCE5CD;
-    flex-grow:1;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items: center;
-}
-#sidenav{
-    width:250px;
-    height:100%;
-    background:#F7D7B5;
-    padding:32px 24px;
-}
-#title{
-color:#361C75;
-font-family: sans-serif;
-font-size: 80px;
-padding:0;
-margin:0;
-}
-#desc{
-    color:#E69138;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24px;
+    margin:0 auto;
+    border-left:20px groove black;
+    border-right:20px groove black;
+ }
+ #title{
     padding:0;
     margin:0;
-}
-#sidenav h4{
-    font-family: sans-serif;
-    font-size:20px;
-}
-#sidenav button{
-    background:transparent;
-    border:none;
-    font-size:18px;
-}
-#menu-box{
-    display:flex;
-    flex-direction: column;
-    align-items: start;
-    gap:2px;
+    text-align: center;
  }
-
- #modebtn{
-    padding-bottom:1em;
+ #form-card{
+    width:95%;
+    height:300px;
+    box-shadow: 0 0 10px 0 #ddd;
+    border:1px solid #ccc;
+    border-radius:16px;
+    margin:24px 24px;
+    padding:24px;
+ }
+ #marksheet-form{
+    display:flex;
+ }
+ #marksheet-form-div{
+    display: flex;
+    flex-direction:column;
+    gap: 6px;
  }
